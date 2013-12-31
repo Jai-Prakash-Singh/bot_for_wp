@@ -18,7 +18,7 @@ def main(link):
     #display = Display(visible=0, size=(800, 600))
     #display.start()
     ip_port = choice(ip_list)
-    myProxy = 'http://vinku:india123@'+ip_port
+    myProxy = 'http://xxxx:xxxx@'+ip_port
     proxy = Proxy({
         'proxyType': ProxyType.MANUAL,
         'httpProxy': myProxy,
