@@ -69,10 +69,10 @@ def registration(email,password,title,string,tag):
 
 
 if __name__=="__main__":
-    email="jatnspochoitovi@hotmail.com"
-    password="6Tresxcvbhy"
+    email="xxxx@hotmail.com"
+    password="xxxx"
     title="creativity"
-    string="creativity cant be defined it can just be do "
+    string="creativity cant be defined it can just be done only "
     tag="creativity"
     
     registration(email,password,title,string,tag)
