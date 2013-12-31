@@ -7,8 +7,8 @@ def verification3(m):
     br.open(m)
     #try:
     br.select_form("loginform")
-    br.form["log"]="jatnspochoitovi@hotmail.com"
-    br.form["pwd"]="6Tresxcvbhy"
+    br.form["log"]="xxxxx@hotmail.com"
+    br.form["pwd"]="xxxx"
     br.submit()
     verified_url = br.geturl()
     return verified_url
@@ -99,6 +99,6 @@ def varification(POPUSER,POPPASS):
 
 
 if __name__=="__main__":
-    POPUSER = "jatnspochoitovi@hotmail.com"
-    POPPASS = "india123"
+    POPUSER = "xxxxxx@hotmail.com"
+    POPPASS = "xxxxxxx"
     varification(POPUSER,POPPASS)
